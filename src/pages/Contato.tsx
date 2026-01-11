@@ -26,18 +26,18 @@ const Contato = () => {
     {
       icon: MapPin,
       title: "Endereço",
-      content: "Rua Exemplo, 123 - Jardins\nSão Paulo, SP - CEP 01234-567",
+      content: "Rua Exemplo, 123 - Jardins\nFortaleza, CE - CEP 01234-567",
     },
     {
       icon: Phone,
       title: "Telefone",
-      content: "(11) 99999-9999",
+      content: "(85) 982184028",
       link: "tel:+5511999999999",
     },
     {
       icon: Mail,
       title: "Email",
-      content: "contato@exemplo.com",
+      content: "castroaureo8@gmail.com",
       link: "mailto:contato@exemplo.com",
     },
     {
@@ -132,7 +132,7 @@ const Contato = () => {
                     className="w-full border-primary/30 hover:bg-primary/10"
                     asChild
                   >
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5585982184028" target="_blank" rel="noopener noreferrer">
                       <Phone className="mr-2 h-5 w-5" />
                       Abrir WhatsApp
                     </a>
@@ -179,7 +179,7 @@ const Contato = () => {
                     <div className="text-center">
                       <MapPin className="h-12 w-12 text-primary mx-auto mb-2" />
                       <p className="text-muted-foreground">Mapa de Localização</p>
-                      <p className="text-sm text-muted-foreground">Jardins, São Paulo - SP</p>
+                      <p className="text-sm text-muted-foreground">Jardins, Fortaleza - CE</p>
                     </div>
                   </div>
                 </CardContent>
